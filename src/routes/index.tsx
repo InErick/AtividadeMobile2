@@ -3,7 +3,7 @@ import { PublicRoutes } from "./PublicRoutes";
 import { useCallback, useState } from "react";
 import { PrivateRoutes } from "./PrivateRoutes";
 
-const NagivationRoutes = () => {
+const NavigationRoutes = () => {
     const [user, setUser] = useState({
         name: "",
     });
@@ -23,4 +23,4 @@ const NagivationRoutes = () => {
     );
 };
 
-export default NagivationRoutes;
+export default NavigationRoutes;
