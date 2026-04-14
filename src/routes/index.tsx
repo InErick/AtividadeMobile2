@@ -4,9 +4,7 @@ import { useCallback, useState } from "react";
 import { PrivateRoutes } from "./PrivateRoutes";
 
 const NavigationRoutes = () => {
-    const [user, setUser] = useState({
-        name: "",
-    });
+    const [user, setUser] = useState(null);
 
     const Routes = useCallback(() => {
         if(!user){
